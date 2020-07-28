@@ -1,0 +1,100 @@
+{
+  "categorias": [
+    {
+      "titulo": "Kombi Home",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "CONHEÇA A KOMBIHOME MAIS LINDA DO BRASIL │ TOUR MOTORHOME",
+          "url": "https://www.youtube.com/watch?v=Kvt9JMLZqiI"
+        },
+        {
+          "titulo": "O DIA DA PARTIDA, PRIMEIRO DIA NA ESTRADA! RUMO A VIDA NOVA! #001",
+          "url": "https://www.youtube.com/watch?v=bBDmPgIFlyE"
+        },
+        {
+          "titulo": "Como é Morar na Kombi Home Simples?(2) / Bardo E Fada Nômade",
+          "url": "https://www.youtube.com/watch?v=ChcqeOcMaHI"
+        },
+        {
+          "titulo": "Kombi Home Karacol - Sim, ela tem banheiro",
+          "url": "https://www.youtube.com/watch?v=eiuFbGYpU5U"
+        },
+        {
+          "titulo": "VOLTA AO MUNDO DE KOMBI: OS SEGREDOS DA RITA LEE!",
+          "url": "https://www.youtube.com/watch?v=wnbRSBCM0LI"
+        },
+        {
+          "titulo": "VEJA COMO FICOU A NOVA KOMBIHOME | LAVANDA 2019",
+          "url": "https://www.youtube.com/watch?v=zDk0w4GekAE&t=55s"
+        },
+        {
+          "titulo": "MAIS CONFORTO NA VIAGEM DE KOMBI",
+          "url": "https://www.youtube.com/watch?v=x7hR_Hwylvk"
+        }      
+      ]
+    },
+    {
+      "titulo": "Kombi Safari",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Kombi Safari 1985 do Brasil para o mundo #episódio1",
+          "url": "https://www.youtube.com/watch?v=sGFgNM1r29c"
+        },
+        {
+          "titulo": "VW Karmann Mobil - Kombi Safari, 1990, Ângelo e Luciane",
+          "url": "https://www.youtube.com/watch?v=6xdW74oa2ws"
+        },
+        {
+          "titulo": "TOUR COMPLETO KOMBI HOME: KOMBI SAFARI | DU CERRADO | Ep. 01",
+          "url": "https://www.youtube.com/watch?v=LidkncBb7yI&t=840s"
+        },
+        {
+          "titulo": "Kombi Safari 1984",
+          "url": "https://www.youtube.com/watch?v=HJjx8FGng3c&t=55s"
+        }, 
+        {
+          "titulo": "KOMBI SAFARI 1986 KARMANN - A clássica casa AIRCOOLED",
+          "url": "https://www.youtube.com/watch?v=UuBtsmXgMIs"
+        }
+      ]
+    },
+    {
+      "titulo": "Kombi Corujinha",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Kombi Corujinha 1961- Luxo - Estado de Zero",
+          "url": "https://www.youtube.com/watch?v=dEVix3gtDBE"
+        },
+        {
+          "titulo": "KOMBI CORUJINHA RESTAURADA | COMO GANHAR DINHEIRO COM SEU CARRO ANTIGO | @kombizinha",
+          "url": "https://www.youtube.com/watch?v=W29IPCeZUcQ"
+        },
+        {
+          "titulo": "NOVIDADE! VW Kombi com banco que vira cama! Vejam a tapeçaria completa dessa corujinha!",
+          "url": "https://www.youtube.com/watch?v=-hxkluHkleg"
+        },
+        {
+          "titulo": "Restauração Kombi 1974 #COMPLETO",
+          "url": "https://www.youtube.com/watch?v=60OQ39oqRWU"
+        }
+      ]
+    
+    }
+  ]
+}
