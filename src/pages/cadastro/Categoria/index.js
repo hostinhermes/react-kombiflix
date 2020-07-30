@@ -29,7 +29,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'https://kombiflix.herokuapp.com/categorias';
+    const URL = window.location.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://kombiflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServer) => {
         if (respostaDoServer.ok) {
@@ -38,7 +40,7 @@ function CadastroCategoria() {
           return;
         }
         throw new Error('Não foi possível pegar os dados');
-      });
+      }); 
   }, []);
 
   return (
