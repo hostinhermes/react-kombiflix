@@ -1,0 +1,22 @@
+{
+    "categorias":[
+        {
+            "id": 1,
+            "name": "Kombi Safaris",
+            "description": "Categoria de Kombis Safaris",
+            "color": "#FFF"
+        },
+        {
+            "id": 2,
+            "name": "Kombi Home",
+            "description": "Categoria de Kombis Homes",
+            "color": "#CCC"
+        },
+        {
+            "id": 3,
+            "name": "Kombi Corujinha",
+            "description": "Categoria de Kombis Corujinhas",
+            "color": "#BBB"
+        }
+    ]
+}
