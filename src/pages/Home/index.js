@@ -1,29 +1,51 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
 
 function Home() {
+  const [initialData, setInitialData] = useState([]);
+  useEffect(() => {
+    categoriasRepository.getAllCategoriesWithVideos()
+      .then((categoriasComVideos) => {
+        setInitialData(categoriasComVideos);
+      }).catch((error) => {
+        console.log(error);
+        toast.error('Ops! Não conseguimos carregar a lista de vídeos! Tente novamente mais tarde.');
+      });
+  }, []);
+
   return (
-    <div style={{ background: '#141414' }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {initialData.length === 0 && (<div>Loading...</div>)}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Casal de Joinville coloca a mão na massa e faz sua própria Kombi Home"
-      />
+      {initialData.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={initialData[0].videos[0].titulo}
+                url={initialData[0].videos[0].url}
+                videoDescription="Casal de Joinville coloca a mão na massa e faz sua própria Kombi Home"
+              />
+              <Carousel
+                key={categoria.id}
+                category={categoria}
+              />
+            </div>
+          );
+        }
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
 
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
-
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
-
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} />
-
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 

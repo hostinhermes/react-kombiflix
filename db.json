@@ -1,22 +1,138 @@
 {
-    "categorias":[
-        {
-            "id": 1,
-            "name": "Kombi Safaris",
-            "description": "Categoria de Kombis Safaris",
-            "color": "#FFF"
-        },
-        {
-            "id": 2,
-            "name": "Kombi Home",
-            "description": "Categoria de Kombis Homes",
-            "color": "#CCC"
-        },
-        {
-            "id": 3,
-            "name": "Kombi Corujinha",
-            "description": "Categoria de Kombis Corujinhas",
-            "color": "#BBB"
-        }
-    ]
+  "categorias": [
+    {
+      "titulo": "Kombi Home",
+      "description": "Videos relacionados a Kombis Home",
+      "color": "#ff3705",
+      "id": 1
+    },
+    {
+      "titulo": "Kombi Safari",
+      "description": "Videos relacionados a Kombis Safari",
+      "color": "#fb9609",
+      "id": 2
+    },
+    {
+      "titulo": "Kombi Corujinha",
+      "description": "Vídeos relacionados a Kombis Corujinhas",
+      "color": "#006eff",
+      "id": 3
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Kombi Corujinha 1961- Luxo - Estado de Zero",
+      "url": "https://www.youtube.com/watch?v=dEVix3gtDBE",
+      "categoriaId": 3
+    },
+    {
+      "id": 2,
+      "titulo": "KOMBI CORUJINHA RESTAURADA | COMO GANHAR DINHEIRO COM SEU CARRO ANTIGO | @kombizinha",
+      "url": "https://www.youtube.com/watch?v=W29IPCeZUcQ",
+      "categoriaId": 3
+    },
+    {
+      "id": 3,
+      "titulo": "NOVIDADE! VW Kombi com banco que vira cama! Vejam a tapeçaria completa dessa corujinha!",
+      "url": "https://www.youtube.com/watch?v=-hxkluHkleg",
+      "categoriaId": 3
+    },
+    {
+      "id": 4,
+      "titulo": "Restauração Kombi 1974 #COMPLETO",
+      "url": "https://www.youtube.com/watch?v=60OQ39oqRWU",
+      "categoriaId": 3
+    },
+    {
+      "id": 5,
+      "titulo": "Kombi Safari 1985 do Brasil para o mundo #episódio1",
+      "url": "https://www.youtube.com/watch?v=sGFgNM1r29c",
+      "categoriaId": 2
+    },
+    {
+      "id": 6,
+      "titulo": "VW Karmann Mobil - Kombi Safari, 1990, Ângelo e Luciane",
+      "url": "https://www.youtube.com/watch?v=6xdW74oa2ws",
+      "categoriaId": 2
+    },
+    {
+      "id": 7,
+      "titulo": "TOUR COMPLETO KOMBI HOME: KOMBI SAFARI | DU CERRADO | Ep. 01",
+      "url": "https://www.youtube.com/watch?v=LidkncBb7yI&t=840s",
+      "categoriaId": 2
+    },
+    {
+      "id": 8,
+      "titulo": "Kombi Safari 1984",
+      "url": "https://www.youtube.com/watch?v=HJjx8FGng3c&t=55s",
+      "categoriaId": 2
+    },
+    {
+      "id": 9,
+      "titulo": "KOMBI SAFARI 1986 KARMANN - A clássica casa AIRCOOLED",
+      "url": "https://www.youtube.com/watch?v=UuBtsmXgMIs",
+      "categoriaId": 2
+    },
+    {
+      "id": 10,
+      "titulo": "CONHEÇA A KOMBIHOME MAIS LINDA DO BRASIL │ TOUR MOTORHOME",
+      "url": "https://www.youtube.com/watch?v=Kvt9JMLZqiI",
+      "categoriaId": 1
+    },
+    {
+      "id": 11,
+      "titulo": "O DIA DA PARTIDA, PRIMEIRO DIA NA ESTRADA! RUMO A VIDA NOVA! #001",
+      "url": "https://www.youtube.com/watch?v=bBDmPgIFlyE",
+      "categoriaId": 1
+    },
+    {
+      "id": 12,
+      "titulo": "Como é Morar na Kombi Home Simples?(2) / Bardo E Fada Nômade",
+      "url": "https://www.youtube.com/watch?v=ChcqeOcMaHI",
+      "categoriaId": 1
+    },
+    {
+      "id": 13,
+      "titulo": "Kombi Home Karacol - Sim, ela tem banheiro",
+      "url": "https://www.youtube.com/watch?v=eiuFbGYpU5U",
+      "categoriaId": 1
+    },
+    {
+      "id": 14,
+      "titulo": "VOLTA AO MUNDO DE KOMBI: OS SEGREDOS DA RITA LEE!",
+      "url": "https://www.youtube.com/watch?v=wnbRSBCM0LI",
+      "categoriaId": 1
+    },
+    {
+      "id": 15,
+      "titulo": "VEJA COMO FICOU A NOVA KOMBIHOME | LAVANDA 2019",
+      "url": "https://www.youtube.com/watch?v=zDk0w4GekAE&t=55s",
+      "categoriaId": 1
+    },
+    {
+      "id": 16,
+      "titulo": "MAIS CONFORTO NA VIAGEM DE KOMBI",
+      "url": "https://www.youtube.com/watch?v=x7hR_Hwylvk",
+      "categoriaId": 1
+    },
+    {
+      "titulo": "VOCÊ MORARIA AQUI??? UMA KOMBI BEM DIFERENTE! KARMANN GHIA SAFARI! CURVA1",
+      "url": "https://www.youtube.com/watch?v=D6zN2t5UG7M",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "RESGATE KOMBI CORUJINHA, 10 ANOS NO TEMPO! DOWNSOCIETY",
+      "url": "https://www.youtube.com/watch?v=esFIUajTduc",
+      "categoriaId": 3,
+      "id": 18
+    },
+    {
+      "titulo": "Tarso Marques Concept - TMC MATTE BLACK - VW KOMBI CORUJINHA",
+      "url": "https://www.youtube.com/watch?v=dYPZjmxuxXs",
+      "categoriaId": 3,
+      "id": 19
+    }
+  ]
 }
